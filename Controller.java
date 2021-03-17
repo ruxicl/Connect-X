@@ -1,9 +1,3 @@
-/**
- * This file is to be completed by you.
- *
- * @author s2011447
- */
-
 import java.io.File;
 
 public final class Controller {
