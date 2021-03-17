@@ -1,8 +1,3 @@
-/**
- * This file is to be completed by you.
- *
- * @author s2011447
- */
 public final class TextView {
 
 	// The maximum number of tries for input validation
