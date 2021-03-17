@@ -1,19 +1,11 @@
 import java.util.Scanner;
 
-/**
- * This class provides a simple means of getting user input.
- * You should not have to touch this code.
- *
- * @author David Symons
- */
+
 public final class InputUtil {
+	
 	private static final Scanner sc = new Scanner(System.in);
 	
-	// A private constructor prevents other code from instantiating
-	// a class that is meant to be used in a static context.
-	private InputUtil()
-	{
-		// Nothing to do!
+	private InputUtil() {
 	}
 
 	/**
@@ -40,8 +32,7 @@ public final class InputUtil {
 			
 			// Consume the rest of the line.
 			sc.nextLine();
-		}
-		while(true);
+		} while(true);
 	}
 	
 	/**
@@ -66,8 +57,7 @@ public final class InputUtil {
 			
 			// Invalid input length, print an error and repeat.
 			System.out.println("Please enter a single character: ");
-		}
-		while (true);
+		} while (true);
 	}
 	
 	/**
